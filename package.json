@@ -1,0 +1,26 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Melliche/chat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Melliche/chat/issues"
+  },
+  "homepage": "https://github.com/Melliche/chat#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "path": "^0.12.7",
+    "socket.io": "^4.5.4"
+  }
+}
